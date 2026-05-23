@@ -1,0 +1,52 @@
+aid: invesco
+name: Invesco
+description: >-
+  Invesco Ltd. (NYSE: IVZ) is a global independent investment management firm
+  headquartered in Atlanta, Georgia, with approximately $1.95 trillion in
+  assets under management. The firm operates a broad set of ETF, mutual fund,
+  and institutional strategies, anchored by the Invesco QQQ Trust (QQQ)
+  tracking the Nasdaq-100, the Invesco Solar ETF (TAN), and the Invesco
+  BulletShares defined-maturity bond ETF suite. Invesco has recently extended
+  its thematic ETF lineup into AI infrastructure and divested its remaining
+  MassMutual stake. No public developer APIs are documented at this time;
+  fund, ETF, and performance data are distributed through institutional
+  market-data channels (Bloomberg, Refinitiv, NYSE) rather than a developer
+  portal.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2026-05-23'
+modified: '2026-05-23'
+position: Consumer
+tags:
+  - Investment Management
+  - Asset Management
+  - ETF
+  - QQQ
+  - Mutual Funds
+  - Financial Services
+  - Public Company
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/invesco/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.invesco.com/
+  - type: Website
+    name: Invesco Corporate
+    url: https://www.invesco.com/corporate/en/home.html
+  - type: Website
+    name: Invesco QQQ ETF
+    url: https://www.invesco.com/qqq-etf/en/home.html
+  - type: AboutUs
+    url: https://www.invesco.com/us/en/about-us.html
+  - type: InvestorRelations
+    url: https://www.invesco.com/corporate/en/investor-relations.html
+  - type: GitHub
+    url: https://github.com/Invesco
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/invesco/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
