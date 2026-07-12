@@ -31,6 +31,8 @@ url: >-
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/invesco-domain-security.yml
   - type: Website
     url: https://www.invesco.com/
   - type: Website
