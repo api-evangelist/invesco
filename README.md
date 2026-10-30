@@ -1,4 +1,4 @@
-# Invesco (invesco)
+# Invesco
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,41 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Invesco Ltd. (NYSE: IVZ) is a global independent investment management firm headquartered in Atlanta with approximately $1.95 trillion in AUM. Its franchise spans the Invesco QQQ Trust (QQQ) tracking the Nasdaq-100, the Invesco Solar ETF (TAN), the BulletShares defined-maturity bond ETF suite, and a growing thematic lineup that has recently extended into AI infrastructure. This repository tracks Invesco's API surface; no public developer APIs are currently documented, as fund and ETF data flow through institutional market-data channels rather than a public developer portal.
+Invesco Ltd. (NYSE: IVZ) is a global independent investment management firm headquartered in Atlanta, Georgia, with approximately $1.95 trillion in assets under management. The firm operates a broad set of ETF, mutual fund, and institutional strategies, anchored by the Invesco QQQ Trust (QQQ) tracking the Nasdaq-100, the Invesco Solar ETF (TAN), and the Invesco BulletShares defined-maturity bond ETF suite. Invesco has recently extended its thematic ETF lineup into AI infrastructure and divested its remaining MassMutual stake. No public developer APIs are documented at this time; fund, ETF, and performance data are distributed through institutional market-data channels (Bloomberg, Refinitiv, NYSE) rather than a developer portal.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/invesco/refs/heads/main/apis.yml)
+**Areas:** Investment Management · Asset Management · ETFs · QQQ · Mutual Funds · Financial Services · Public Company
 
-## Scope
+## Invesco on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Invesco is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/invesco/](https://apis.io/providers/invesco/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Investment Management, Asset Management, ETF, QQQ, Mutual Funds, Financial Services, Public Company
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Invesco Domain Security](https://apis.io/security/invesco/invesco-domain-security/)
 
-No public APIs have been documented yet. Invesco does not operate a developer portal at `developer.invesco.com`, `api.invesco.com`, or `developers.invesco.com` (none resolve), and the Invesco GitHub org (`github.com/Invesco`) hosts a single inactive repository last updated in 2017.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.invesco.com/)
-- [Invesco Corporate](https://www.invesco.com/corporate/en/home.html)
-- [Invesco QQQ ETF](https://www.invesco.com/qqq-etf/en/home.html)
-- [About Us](https://www.invesco.com/us/en/about-us.html)
-- [Investor Relations](https://www.invesco.com/corporate/en/investor-relations.html)
-- [GitHub](https://github.com/Invesco)
-- [LinkedIn](https://www.linkedin.com/company/invesco/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 3.3** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.6** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/invesco/](https://apis.io/providers/invesco/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Invesco: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/invesco/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
